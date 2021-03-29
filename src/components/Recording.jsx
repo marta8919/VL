@@ -1,8 +1,8 @@
-import { React, useState, useEffect } from "react";
+import { React, useState } from "react";
 import { Recorder } from "react-voice-recorder";
 import "react-voice-recorder/dist/index.css";
 
-export default function Recording(props) {
+export default function Recording() {
   const [rec, setRec] = useState({
     audioDetails: {
       url: null,
